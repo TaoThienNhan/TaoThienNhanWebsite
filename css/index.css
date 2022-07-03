@@ -1,0 +1,252 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 1280px;
+  max-height: auto;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.container nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.container nav ul {
+  position: relative;
+  padding: 0;
+  list-style: none;
+  background-color: transparent;
+}
+
+.container nav ul:hover li {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+.container nav li {
+  text-align: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: inline-block;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  padding-left: 20px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.container nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.container nav ul li:hover {
+  font-size: 20px;
+  -webkit-animation: bg 1s ease-in-out forwards;
+          animation: bg 1s ease-in-out forwards;
+  border-radius: 10px;
+  -webkit-filter: blur(0);
+          filter: blur(0);
+  cursor: pointer;
+}
+
+@-webkit-keyframes bg {
+  0% {
+    background-color: transparent;
+    color: black;
+  }
+}
+
+@keyframes bg {
+  0% {
+    background-color: transparent;
+    color: black;
+  }
+}
+
+.container nav .login {
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 100px;
+  text-align: center;
+  margin-top: 5px;
+  padding: 10px;
+  position: absolute;
+  right: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.container nav .login i {
+  margin-right: 5px;
+}
+
+.container .header-box {
+  width: 1280px;
+  max-height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .header-box .right {
+  width: 55%;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.container .header-box .right span {
+  display: block;
+  margin-top: 10px;
+  font-family: 'Splash';
+}
+
+.container .header-box .right .name {
+  font-size: 50px;
+}
+
+.container .header-box .right .welcome {
+  font-size: 60px;
+  font-family: 'Yanone Kaffeesatz';
+}
+
+.container .header-box .right .info {
+  font-size: 50px;
+  font-family: 'Yanone Kaffeesatz';
+}
+
+.container .header-box .right button {
+  width: 200px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+.container .header-box .right button i {
+  margin-right: 5px;
+}
+
+.container .header-box .right button a {
+  color: white;
+  text-decoration: none;
+}
+
+.container .header-box .right button:hover {
+  width: 210px;
+  height: 51px;
+}
+
+.container .header-box .left {
+  width: 45%;
+  text-align: center;
+}
+
+.container .header-box .left img {
+  width: 460px;
+  border: 1px solid white;
+  -webkit-box-shadow: 0px 5px 10px black;
+          box-shadow: 0px 5px 10px black;
+  border-radius: 500px;
+  display: inline-block;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.container .line {
+  width: 500px;
+  height: 3px;
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 350px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.container .product {
+  width: 1200px;
+  max-height: auto;
+  padding: 60px;
+  margin-bottom: 100px;
+}
+
+.container .product .title {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Yanone Kaffeesatz';
+}
+
+.container .product .box {
+  width: 1000px;
+  height: 310px;
+  margin-top: 70px;
+}
+
+.container .product .box img {
+  width: 300px;
+  height: 350px;
+  float: left;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.container .product .box .right {
+  width: 600px;
+  max-height: auto;
+  float: left;
+  margin-left: 20px;
+}
+
+.container .product .box .right .title {
+  text-align: left;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.container .product .box .right .info {
+  width: 600px;
+  max-height: auto;
+  font-size: 25px;
+  font-family: 'Yanone Kaffeesatz';
+}
+
+.container .product .box .right a {
+  color: red;
+  float: right;
+  text-decoration: none;
+}
+
+.container footer {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=index.css.map */
